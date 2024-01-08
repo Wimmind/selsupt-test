@@ -1,9 +1,12 @@
-import { FC } from 'react';
+import { FC } from 'react'
+import { ParamEditor } from './components/ParamEditor'
+import { PARAMS, MODEL } from './fixtures'
+
 
 export const App: FC = () => {
   return (
     <div>
-      hellofsdf
+      <ParamEditor params={PARAMS} model={MODEL} />
     </div>
   )
 }
